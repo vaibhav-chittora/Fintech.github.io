@@ -1,0 +1,213 @@
+/* CSS Reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Navigation Bar Styling */
+
+#navbar{
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+#navbar div{
+    padding: 10px;
+}
+#logo img{
+height: 50px;
+width: 60px;
+/* padding: 10px; */
+}
+
+#logo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 16px 28px;
+    margin-left: 75px;
+}
+
+    
+#navbar ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 24px 11px
+}
+    
+#navbar ul li a{   
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+
+    
+
+/* Home Styling */
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    font-size: 1.8rem;
+    padding: 135px;
+    margin: 55px;
+}
+#home a{
+display: flex;
+justify-content: center;
+align-items: center;
+/* text-decoration: none; */
+color: red;
+margin-top: 20px;
+}
+#home p{
+    text-align: center;
+    color: black;
+}
+
+#home::before{
+    content: '';
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/* Categories Section Styling */
+#categories-container{
+    margin: 175px 0px;
+}
+#categories{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.box{
+    /* border: 2px solid purple; */
+    margin: 20px 30px;
+    padding: 25px 35px;
+}
+.box img{
+display: block;
+margin: auto;
+}
+.box div a{
+    font-size: 16px;
+display: block;
+width: 100px;
+margin: 15px auto;
+text-decoration: none;
+}
+.box div a:hover{
+color: red;
+transform:translateX(10px);
+transition:ease-in;
+transition-duration: 0.2s;
+
+}
+
+/* Features Section Styling  */
+#features-container{
+    background-color: #D6E6F2;
+
+}
+#features p::before{
+    content: '';
+    background:  #1a57a5;
+    position: absolute;
+    width: 500px;
+    height: 3px;
+    right: 33%;
+    bottom: -1100px;
+}
+#features{
+    margin: 18px 250px;
+}
+#features p{
+    font-size: 1.3rem;
+display: block;
+text-align: center;
+padding: 92px;
+}
+
+#features-section{
+    display: flex;
+
+}
+#features-section div{
+    /* border: 2px solid red; */
+margin: 25px 30px;
+width: 850px;
+}
+#features-section img{
+    margin: 20px;
+    padding: 20px;
+    width: 740px;
+    height: 560px;
+}
+
+#side-para{
+    font-size: 20px;
+margin: 20px;
+padding: 63px;
+}
+#side-para p{
+    font-size: 20px;
+margin: 20px;
+padding: 15px;
+margin-bottom: 0px;
+}
+#side-para ol{
+list-style: url(&#x2714;);    
+margin: 0px 20px;
+padding: 20px;
+}
+#side-para ol li{
+margin: 20px;
+}
+
+
+
+
+
+
+/* Utility Classes */
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 3rem;
+    margin: 20px;
+    padding: 15px;
+
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+
